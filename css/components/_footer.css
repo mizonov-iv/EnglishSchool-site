@@ -1,0 +1,32 @@
+
+.footer-container {
+    padding: 40px 0;
+    border-top: 1px solid #C4C4C4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__policy {
+    width: 43.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.policy__link {
+    position: relative;
+    display: block;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--manate-color);
+}
+.policy__link::before {
+    left: -10px;
+    top: 50%;
+    transform: translatey(-50%);
+    position: absolute;
+    content: " ";
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: var(--manate-color);
+    display: block;
+}

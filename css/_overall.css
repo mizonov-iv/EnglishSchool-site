@@ -1,0 +1,22 @@
+.container {
+    max-width: 1400px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.site-container {
+    overflow: hidden;
+}
+.flex {
+    display: flex;
+}
+.btn-reset {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+.title {
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--black-color);
+}
